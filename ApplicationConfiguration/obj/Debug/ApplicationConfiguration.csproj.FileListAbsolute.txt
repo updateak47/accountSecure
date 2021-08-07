@@ -1,0 +1,26 @@
+C:\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.dll
+C:\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.pdb
+C:\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.dll
+C:\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.pdb
+C:\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csprojResolveAssemblyReference.cache
+C:\NCR Development\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.dll
+C:\NCR Development\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.pdb
+C:\NCR Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csprojResolveAssemblyReference.cache
+C:\NCR Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.dll
+C:\NCR Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.pdb
+E:\Development\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.dll
+E:\Development\Projects\Software\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.pdb
+E:\Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csproj.CoreCompileInputs.cache
+E:\Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.dll
+E:\Development\Projects\Software\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.pdb
+C:\Users\ho250019\source\repos\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.dll
+C:\Users\ho250019\source\repos\AccountSecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.pdb
+C:\Users\ho250019\source\repos\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csproj.CoreCompileInputs.cache
+C:\Users\ho250019\source\repos\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.dll
+C:\Users\ho250019\source\repos\AccountSecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.pdb
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.dll
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\bin\Debug\ApplicationConfiguration.pdb
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csproj.AssemblyReference.cache
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.csproj.CoreCompileInputs.cache
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.dll
+C:\Users\ho250019\source\Acctsecure\ApplicationConfiguration\obj\Debug\ApplicationConfiguration.pdb
