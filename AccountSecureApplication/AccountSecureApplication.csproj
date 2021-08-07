@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BA50037-E938-4729-AF6E-56E320CC72B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccountSecure.App</RootNamespace>
+    <AssemblyName>AccountSecureApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CollapsibleSplitter">
+      <HintPath>..\..\..\..\Users\updat\Desktop\LaundrySoft\LaundrySoft\bin\Debug\CollapsibleSplitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\Users\updat\Downloads\Computer Vision - CV\Project_FaceRecognition\lib\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>..\AccountSecure.FaceLib\dlls\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.AvisGridViewLib">
+      <HintPath>..\..\..\..\Users\updat\Desktop\LaundrySoft\LaundrySoft\bin\Debug\Interop.AvisGridViewLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class objects\AcctLogin.cs" />
+    <Compile Include="Class objects\AppConfig.cs" />
+    <Compile Include="FrmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfig.Designer.cs">
+      <DependentUpon>FrmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQuery.Designer.cs">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecognizer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecognizer.Designer.cs">
+      <DependentUpon>FrmRecognizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsers.Designer.cs">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomer.Designer.cs">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransaction.Designer.cs">
+      <DependentUpon>FrmTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecognize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecognize.Designer.cs">
+      <DependentUpon>FrmRecognize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerify.Designer.cs">
+      <DependentUpon>FrmVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewCustomers.Designer.cs">
+      <DependentUpon>FrmViewCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGLedger.Designer.cs">
+      <DependentUpon>FrmGLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewTransaction.Designer.cs">
+      <DependentUpon>FrmViewTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewUser.Designer.cs">
+      <DependentUpon>FrmViewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class objects\ImageResize.cs" />
+    <Compile Include="MasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterForm.Designer.cs">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConfig.resx">
+      <DependentUpon>FrmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQuery.resx">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecognizer.resx">
+      <DependentUpon>FrmRecognizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsers.resx">
+      <DependentUpon>FrmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomer.resx">
+      <DependentUpon>FrmCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransaction.resx">
+      <DependentUpon>FrmTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecognize.resx">
+      <DependentUpon>FrmRecognize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerify.resx">
+      <DependentUpon>FrmVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewCustomers.resx">
+      <DependentUpon>FrmViewCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGLedger.resx">
+      <DependentUpon>FrmGLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewTransaction.resx">
+      <DependentUpon>FrmViewTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewUser.resx">
+      <DependentUpon>FrmViewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterForm.resx">
+      <DependentUpon>MasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\AccountSecure.Interface.CustomerDetails.datasource" />
+    <None Include="Properties\DataSources\AccountSecure.Interface.Transaction.datasource" />
+    <None Include="Properties\DataSources\AccountSecure.Interface.TransactionTypeDefault.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccountSecure.DataAccess\AccountSecure.DataAccess.csproj">
+      <Project>{cefb4010-2525-497b-b8ae-b8418bb92293}</Project>
+      <Name>AccountSecure.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AccountSecure.Entity\AccountSecure.Entity.csproj">
+      <Project>{ed2c5921-5d54-4ecf-a815-55a5e0d01684}</Project>
+      <Name>AccountSecure.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AccountSecure.FaceLib\AccountSecure.FaceLib.csproj">
+      <Project>{a509c281-8f6b-4758-b0ee-70a71845139e}</Project>
+      <Name>AccountSecure.FaceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AccountSecure.Interface\AccountSecure.Interface.csproj">
+      <Project>{58885567-1a4e-4621-b1b3-376c5087dc43}</Project>
+      <Name>AccountSecure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApplicationConfiguration\ApplicationConfiguration.csproj">
+      <Project>{d7f34e30-fc0a-4691-9aa7-b93fea614602}</Project>
+      <Name>ApplicationConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biometric.Device\Biometric.Device.csproj">
+      <Project>{bf9e99d0-9090-4699-8b1f-adfb089afcdf}</Project>
+      <Name>Biometric.Device</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
